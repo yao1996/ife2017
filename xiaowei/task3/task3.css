@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 20px;
+}
+.container{
+  padding: 20px;
+  border: 1px solid #999;
+  background-color: #eee;
+  overflow: hidden;
+}
+.left{
+  padding: 20px;
+  float: left;
+  width: 200px;
+  overflow: hidden;
+  border: 1px solid #999;
+  background-color: white;
+}
+.left p{
+  float: right;
+}
+.logoLeft{
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+.right{
+  float: right;
+  border: 1px solid #999;
+  background-color: white;
+  width: 120px;
+}
+.logoRight{
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  margin-bottom: 0;
+}
+.logoRight1{
+  margin-bottom: 20px;
+}
+.middle{
+  border: 1px solid #999;
+  background-color: white;
+  margin-right: 140px;
+  margin-left: 220px;
+}
+.middle{
+  padding: 20px;
+}
