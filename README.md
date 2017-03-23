@@ -4,5 +4,6 @@
   [小薇学院task1](http://yao1996.github.io/ife2017/xiaowei/task1/)  
   [小薇学院task2](http://yao1996.github.io/ife2017/xiaowei/task2/)  
   [小薇学院task3](http://yao1996.github.io/ife2017/xiaowei/task3/)
+  [小薇学院task4](http://yao1996.github.io/ife2017/xiaowei/task4/)
 
   **随时更新**
