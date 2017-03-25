@@ -29,7 +29,7 @@ header{
     background-color: #D45D5C;
     vertical-align: bottom;
     p{
-      font:12px foBlack;
+      font:12px $foBlack;
       color: #ffffff;
       margin-top: 45px;
       margin-left: 5px;
@@ -37,7 +37,7 @@ header{
   }
   .rightHeader{
     display: inline-block;
-    font:12px foBlack;
+    font:12px $foBlack;
     color: #d45d5c;
     text-align: right;
     width:777px;
@@ -81,7 +81,7 @@ main{
     zoom:1;
     .text1{
         display: inline-block;
-        font:24px yaBlack;
+        font:24px $yaBlack;
         line-height: 24px;
         margin-top: 10px;
         border-bottom: 2px solid #000000;
@@ -94,24 +94,24 @@ main{
       margin-top: 5px;
     }
     .text3{
-      font:116px/129px yaBlack;
+      font:116px/129px $yaBlack;
       color: #75b86b;
       margin-top: 14px;
     }
     .text4{
-      font:55px yaBlack;
+      font:55px $yaBlack;
       color: #cc8091;
       float: left;
       margin-top: -14px;
     }
     .text5{
       display: inline;
-      font:21px yaBlack;
+      font:21px $yaBlack;
       color: #cc8091;
     }
     .text6{
       display: inline;
-      font:12px yaBlack;
+      font:12px $yaBlack;
       color: #231815;
     }
   }
@@ -124,12 +124,12 @@ main{
     width: 228px;
     margin-right: 24px;
     h4{
-      font:bold 16px yaBlack;
+      font:bold 16px $yaBlack;
       text-decoration: underline;
       margin-bottom: 10px;
     }
     p{
-      font:12px/16px yaBlack;
+      font:12px/16px $yaBlack;
       color: #231815;
       opacity: 0.7;
       filter:alpha(opacity=70);
@@ -171,17 +171,15 @@ main{
       margin-bottom: 25px;
       border-bottom: 2px solid #11456b;
       h2{
-        letter-spacing: -3px;
-        font:bold 42px/25px foBlack;
+        font:bold 42px/1em $foBlack;
         color: #11456b;
-        margin-bottom: 16px;
         span{
-          font:bold italic 72px foBlack;
+          font:bold italic 72px/1em $foBlack;
           color: #f5e327;
         }
       }
       h3{
-        font:bold 33px/45px foBlack;
+        font:bold 33px/1em $foBlack;
         color: #11456b;
         padding-bottom: 15px;
       }
@@ -191,15 +189,16 @@ main{
       color: #767777;
       float: left;
       span{
-        display: inline-block;
         float: left;
-        font:70px yaBlack;
+        font:70px/1em $yaBlack;
         color: #f5e327;
+        padding-right: 12px;
       }
     }
     .leftImg{
       float: right;
       vertical-align: top;
+      margin:10px 10px 5px 10px;
     }
   }
   .contentRight{
@@ -218,7 +217,7 @@ main{
       filter:alpha(opacity=50);
       padding: 8px 40px;
       p{
-        font:italic 12px yaBlack;
+        font:italic 12px $yaBlack;
         letter-spacing: 140%;
         color: #72b16a;
       }
@@ -226,7 +225,7 @@ main{
         display: inline-block;
         border-left: 3px solid #72b16a;
         height: 44px;
-        font:26px yaBlack;
+        font:26px $yaBlack;
         color: #ffffff;
         padding-left: 10px;
       }
@@ -268,7 +267,7 @@ main{
         padding-bottom: 30px;
         color: #ffffff;
         span{
-          font:110px/86px yaBlack;
+          font:110px/86px $yaBlack;
           display: inline-block;
           border-right: 2px solid ;
           padding: 0 3px;
@@ -282,10 +281,10 @@ main{
           margin-top: 5px;
           &{
             .red12,.red345{
-              font:italic 18px/24px foBlack;
+              font:italic 18px/24px $foBlack;
             }
             .redHello{
-              font:14px/14px foBlack;
+              font:14px/14px $foBlack;
             }
           }
         }
@@ -295,14 +294,17 @@ main{
         width: 180px;
         margin: 0 7px;
         p{
-          font:italic 14px foBlack;
+          font:italic 14px/1em $foBlack;
           color: #5a5b5b;
+          text-indent: 42px;
           span{
-            font-style:normal;
-            font-size: 72px;
-            width: 50px;
-            line-height: 20px;
+            font:72px/1em $foBlack;
             color: #D45D5C;
+            position: absolute;
+            transform: translate(-120px,-15px);
+          }
+          span+span{
+            transform: translate(10px,0px);
           }
         }
       }
@@ -314,7 +316,7 @@ footer{
   height: 60px;
   p{
     text-align: right;
-    font:12px foBlack;
+    font:12px $foBlack;
     color: #d45d5c;
   }
 }
