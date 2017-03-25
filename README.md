@@ -3,9 +3,9 @@
   [GitHub博客](http://yao1996.github.io/)不过现在并没有任何东西  
   [小薇学院task1](http://yao1996.github.io/ife2017/xiaowei/task1/)  
   [小薇学院task2](http://yao1996.github.io/ife2017/xiaowei/task2/)  
-  [小薇学院task3](http://yao1996.github.io/ife2017/xiaowei/task3/)  
-  [小薇学院task4](http://yao1996.github.io/ife2017/xiaowei/task4/)  
+  三栏式布局：[小薇学院task3](http://yao1996.github.io/ife2017/xiaowei/task3/)  
+  定位与居中：[小薇学院task4](http://yao1996.github.io/ife2017/xiaowei/task4/)  
   [小薇学院task5](http://yao1996.github.io/ife2017/xiaowei/task5/)  
-  [小薇学院task6](http://yao1996.github.io/ife2017/xiaowei/task6/)  
+  模拟报纸排版：[小薇学院task6](http://yao1996.github.io/ife2017/xiaowei/task6/)  
 
   **随时更新**
